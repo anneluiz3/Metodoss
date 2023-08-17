@@ -60,8 +60,8 @@ namespace aula4
             Console.WriteLine($"Nome: {f1.nome} \nCargo: {f2.cargo} \nSalario: {f2.salario:c2}");
           
             
-            Turms t1 = new Turms(); 
-            Turms t2 = new Turms();
+            Turma t1 = new Turma(); 
+            Turma t2 = new Turma();
 
             Console.WriteLine("\t\t---Testar Turma 01---\n");
             Console.Write("Periodo: ");
@@ -88,7 +88,6 @@ namespace aula4
             Console.WriteLine("\t\t---Imprimindo Turmas---\n");
             Console.WriteLine($"Periodo: {t1.periodo} \nSerie: {t1.serie} \nSigla: {t1.sigla} \nTipo: {t1.tipo}");
             Console.WriteLine($"Periodo: {t2.periodo} \nSerie: {t2.serie} \nSigla: {t2.sigla} \nTipo: {t2.tipo}");
-
 
 
         }

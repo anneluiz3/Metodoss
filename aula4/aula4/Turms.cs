@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace aula4
 {
-    internal class Turms
+    internal class Turma
 
     {
         public string periodo;
