@@ -4,11 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OBJETOS
+namespace BancoHeranca
 {
-    internal class Program
+    public class gerentes : funcionario 
     {
-        
-       
+        public string login;
+        public string senha;
     }
+
 }
